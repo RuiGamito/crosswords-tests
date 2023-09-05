@@ -1,0 +1,23 @@
+{
+  "name": "devops_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_task.js",
+  "scripts": {
+    "mocha": "mocha tests",
+    "debug": "mocha tests --debug",
+    "report": "mocha tests --reporter mocha-allure-reporter; allure generate; allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.24.0",
+    "chromedriver": "^116.0",
+    "jimp": "^0.22.8",
+    "mocha": "^10.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "selenium-webdriver": "^4.10.0",
+    "wdio-video-reporter": "^4.0.4"
+  }
+}
